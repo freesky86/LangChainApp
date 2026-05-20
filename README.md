@@ -26,7 +26,7 @@ pip install -r requirement.txt
 
 **Step 4**: config enviroment variables
 1. create .env file under root path  
-2. access 阿里百炼平台获取API key https://bailian.console.aliyun.com/cn-beijing?tab=model#/api-key
+2. access 阿里百炼平台(https://bailian.console.aliyun.com/cn-beijing?tab=model#/api-key) to get API key 
 3. add DASHSCOPE_API_KEY in .env file
 ```env
 DASHSCOPE_API_KEY="sk-xxx"
