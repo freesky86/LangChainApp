@@ -17,9 +17,9 @@ python -m venv myvenv
   source myvenv/bin/activate
   ```
 **Step 3**: install dependencies
-After activating the virtual environment, install the dependencies listed in the requirememnts.txt:
+After activating the virtual environment, install the dependencies listed in the requirememnt.txt:
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 **注**: 由于langchain的lib在国内下载比较慢，如果有下载好的，可以copy到.\myvenv目录下。
