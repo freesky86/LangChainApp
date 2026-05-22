@@ -34,5 +34,5 @@ DASHSCOPE_API_KEY="sk-xxx"
 
 **Step 5**: run application
 1. open terminal and make sure it uses myvenv virtual environment
-2. run 'python -m src.chat.chat', you will see the output in console
+2. run 'python -m src.services.gpt_service', you will see the output in console
 
