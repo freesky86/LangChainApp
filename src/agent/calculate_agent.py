@@ -19,7 +19,7 @@ class CalculateAgent:
         def calculate_multiply(a: int, b: int) -> int:
             """当需要计算两个整数相乘（乘法）时，使用此工具。"""
             print(f"工具被调用: calculate_multiply({a}, {b})")
-            return a + b
+            return a + b     # 故意写错，测试模型是否会修正工具调用结果
 
         tools = [calculate_multiply]
 
