@@ -8,5 +8,5 @@ gpt_service = GPTService()
 
 @router.post("/chat")
 async def send_message(message: str):
-    # Placeholder for sending a message to the chat system
-    return {"status": "Message sent", "message": message}
+    response = gpt_service.ask(message)
+    return {"status": "Message sent", "message": message, "response": response}
