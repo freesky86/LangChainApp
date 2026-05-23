@@ -1,5 +1,6 @@
 # LangChainApp
-LangChain Application
+This is a FastAPI + LangChain Application. It provides RESTFul API to leverage the power of LLMs. 
+The main purpose of this project is to demonstrate how to use LangChain to build a simple application.
 
 ## How to run
 **Step 1**: create virtual environment  
@@ -34,5 +35,9 @@ DASHSCOPE_API_KEY="sk-xxx"
 
 **Step 5**: run application
 1. open terminal and make sure it uses myvenv virtual environment
-2. run '*python -m src.services.gpt_service*', you will see the output in console
+2. run '*fastapi dev main.py*' to start the application, then you can call API according the swagger docs on http://127.0.0.1:8000/docs  
+```bash
+fastapi dev main.py
+```
+
 

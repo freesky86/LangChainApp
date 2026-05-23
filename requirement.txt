@@ -3,3 +3,4 @@ langgraph==1.0.4
 langsmith==0.4.56
 langchain-community==0.4.1
 dashscope==1.25.18
+fastapi[standard]==0.136.1
