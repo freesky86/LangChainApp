@@ -1,5 +1,5 @@
 # LangChainApp
-This is a FastAPI + LangChain Application. It provides RESTFul API to leverage the power of LLMs. 
+This is a FastAPI + LangChain(LangGraph) Application. It provides RESTFul API to leverage the power of LLMs. 
 The main purpose of this project is to demonstrate how to use LangChain to build a simple application.
 
 ## How to run
